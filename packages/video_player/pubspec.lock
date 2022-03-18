@@ -166,9 +166,11 @@ packages:
   video_player_platform_interface:
     dependency: "direct main"
     description:
-      path: "../video_player_platform_interface"
-      relative: true
-    source: path
+      path: "packages/video_player_platform_interface"
+      ref: full
+      resolved-ref: be25476db46ec6f8d46a6c78f6a1b6a664795396
+      url: "https://github.com/iEBuy-github/video_editor"
+    source: git
     version: "4.0.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"
