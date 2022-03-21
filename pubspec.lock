@@ -241,23 +241,29 @@ packages:
   video_player:
     dependency: "direct main"
     description:
-      path: "packages/video_player"
-      relative: true
-    source: path
+      path: "packages/video_player/video_player"
+      ref: cf1ecafd21b0a7c014f8e7725e54e169b9af0138
+      resolved-ref: cf1ecafd21b0a7c014f8e7725e54e169b9af0138
+      url: "https://github.com/iEBuy-github/plugins-1"
+    source: git
     version: "2.0.2"
   video_player_platform_interface:
     dependency: transitive
     description:
-      path: "packages/video_player_platform_interface"
-      relative: true
-    source: path
+      path: "packages/video_player/video_player_platform_interface"
+      ref: agumi
+      resolved-ref: cf1ecafd21b0a7c014f8e7725e54e169b9af0138
+      url: "https://github.com/iEBuy-github/plugins-1"
+    source: git
     version: "4.0.0"
   video_player_web:
     dependency: transitive
     description:
-      path: "packages/video_player_web"
-      relative: true
-    source: path
+      path: "packages/video_player/video_player_web"
+      ref: agumi
+      resolved-ref: cf1ecafd21b0a7c014f8e7725e54e169b9af0138
+      url: "https://github.com/iEBuy-github/plugins-1"
+    source: git
     version: "2.0.0"
   video_thumbnail:
     dependency: "direct main"

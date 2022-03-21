@@ -16,13 +16,13 @@ dependencies:
     sdk: flutter
   path: ^1.8.0
   path_provider: ^2.0.2
-  # video_player: ^2.2.6
+  
   video_player:
-    path: packages/video_player
-    # git:
-      # url: https://github.com/iEBuy-github/plugins-1.git
-      # ref: agumi
-      # path: packages/video_player/video_player
+    # path: packages/video_player
+    git: 
+      url: https://github.com/iEBuy-github/plugins-1
+      ref: cf1ecafd21b0a7c014f8e7725e54e169b9af0138
+      path: packages/video_player/video_player
   video_thumbnail: ^0.4.3
 
 dev_dependencies:
